@@ -1,0 +1,40 @@
+.GameBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Board {
+    display: grid;
+    grid-template-columns: repeat(5, 60px); /* Adjust cell size */
+    grid-template-rows: repeat(5, 60px);    /* Adjust cell size */
+    grid-gap: 4px; /* Space between cells */
+  }
+  
+  .Cell {
+    width: 60px;  /* Adjust cell width */
+    height: 60px; /* Adjust cell height */
+    background-color: #05c9f0bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    font-size: 18px; /* Adjust font size if needed */
+  }
+  
+  .Cell.Revealed {
+    background-color: #f90a0a;
+  }
+  
+  .Cell.Scored {
+    background-color: rgb(0, 255, 89);
+  }
+  
+  .Mugwump {
+    font-size: 24px; /* Adjust font size for Mugwump if needed */
+    font-weight: bold;
+    color: rgb(11, 47, 225);
+  }
+  

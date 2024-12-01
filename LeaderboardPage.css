@@ -1,0 +1,77 @@
+.leaderboard-container {
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(120deg, #282c34, #3b3f45); /* Gradient background */
+  color: #fff;
+  border-radius: 10px;
+}
+
+.leaderboard-container h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffcc00; /* Gold color for headings */
+  margin-bottom: 30px;
+  text-shadow: 2px 2px #000; /* Adds shadow for a glowing effect */
+}
+
+.leaderboard-container table {
+  width: 100%;
+  margin-bottom: 30px;
+  border-collapse: collapse; /* No space between table cells */
+}
+
+.leaderboard-container th,
+.leaderboard-container td {
+  border: 2px solid #fff; /* White borders */
+  padding: 12px;
+  text-align: center;
+}
+
+.leaderboard-container th {
+  background-color: #50565e; /* Darker background for headers */
+  font-size: 18px;
+  color: #ffcc00; /* Gold text */
+}
+
+.leaderboard-container td {
+  background-color: #353a40; /* Dark background for table cells */
+  font-size: 16px;
+}
+
+.leaderboard-container .highlighted-row {
+  background-color: #ffcc00; /* Highlighted row background */
+  color: #000; /* Text color for the highlighted row */
+}
+
+.leaderboard-container .username {
+  color: #00bfff; /* Blue color for usernames */
+  font-weight: bold;
+}
+
+.leaderboard-container .score {
+  font-weight: bold;
+  color: #28a745; /* Green color for scores */
+}
+
+.leaderboard-container tr:hover {
+  background-color: #555; /* Hover effect for rows */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.user-profile-highlight {
+  background: #282c34; /* Dark background for user profile section */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.user-profile-highlight h2 {
+  color: #ffcc00; /* Gold color for headings */
+  text-shadow: 1px 1px #000; /* Shadow for depth */
+}
+
+.user-profile-highlight p {
+  color: #00bfff; /* Blue color for profile details */
+  margin: 5px 0;
+  font-size: 18px;
+}

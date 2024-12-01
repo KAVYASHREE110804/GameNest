@@ -1,0 +1,15 @@
+canvas {
+    display: block;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border: 2px solid #0095DD;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+  }
+  

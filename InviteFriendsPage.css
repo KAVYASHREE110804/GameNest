@@ -1,0 +1,33 @@
+/* Example CSS for InviteFriendsPage */
+.invite-friends-container {
+    padding: 20px;
+  }
+  
+  .invite-friends-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .invite-friends-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .invite-friends-container li {
+    margin-bottom: 10px;
+  }
+  
+  .invite-friends-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .invite-friends-container button:hover {
+    background-color: #0056b3;
+  }
+  

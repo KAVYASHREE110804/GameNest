@@ -1,0 +1,85 @@
+.main-layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sidebar button:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+}
+
+.top-frame {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 games per row */
+  gap: 20px;
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0; /* Align with search bar */
+}
+
+.game-button {
+  background-color: #510fea;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  transition: box-shadow 0.3s, transform 0.3s;
+  text-align: center;
+}
+.game-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgb(235, 68, 3);
+}
+
+.game-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Ensure the image fully fits within the button */
+  background-color: transparent; /* Ensure background is transparent */
+  border-radius: 5px;
+}
+
+.no-results {
+  text-align: center;
+}
